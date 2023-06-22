@@ -35,24 +35,24 @@ search.addEventListener('click', () => {
             const wind = document.querySelector('.weather-details .wind span');
 
             switch (json.weather[0].main) {
-                case 'Ясно':
-                    image.src = './images/clear.png';
+                case 'Cloud':
+                    image.src = 'images/clear.png';
                     break;
 
-                case 'Дождь':
-                    image.src = './images/rain.png';
+                case 'Rain':
+                    image.src = 'images/rain.png';
                     break;
 
-                case 'Снег':
-                    image.src = './images/snow.png';
+                case 'Snow':
+                    image.src = 'images/snow.png';
                     break;
 
-                case 'Облачно':
-                    image.src = './images/cloud.png';
+                case 'Clouds':
+                    image.src = 'images/cloud.png';
                     break;
 
-                case 'Туман':
-                    image.src = './images/mist.png';
+                case 'Haze':
+                    image.src = 'images/mist.png';
                     break;
 
                 default:
