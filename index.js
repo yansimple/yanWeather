@@ -75,3 +75,9 @@ search.addEventListener('click', () => {
 
 
 });
+
+$(document).keypress(function (e) {
+    if (e.which == 13) {
+            document.getElementById("search").click();
+    }
+});
